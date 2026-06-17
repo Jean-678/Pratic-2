@@ -3,8 +3,11 @@ const express = require('express');
 const app = express();
 const visiteur = process.env.visiteur || 'Anonyme';
 
-app.get('/', (req, res) => {
-  res.send('You have well deployed you app: welcome you have successfully deploy you API' );
+app.get('/health', (req, res) => {
+  res.json({
+    status: "ok",
+    environment: process.env.APP_ENV || "local"
+  });
 });
 
 const PORT = process.env.PORT || 3000;
