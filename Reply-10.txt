@@ -1,0 +1,11 @@
+You have created a new repo and copy the content of package.zip inside. Which two other solutions could have you chosen to obtain the same result using this existing repo?
+
+#1
+1 - clone the new repo to a different local file.
+2 - extract the package into the cloned folder.
+3 - stage, commit, and push the change to github
+
+#2
+1 - create a orphan branch
+2 - unZip the folder directly to the repository
+3 - add and commit all the files.
